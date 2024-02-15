@@ -1,0 +1,45 @@
+body {
+     background-color: black;
+     color: white;
+     font: normal 20pt Arial
+    }
+    
+    .background-image {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('Algoritmos-de-machine-learning.jpeg'); /* caminho da imagem */
+        background-size: cover;
+        opacity: 0.5;  
+        z-index: -1;
+    }
+span{
+    color: goldenrod;  
+    border: 1px solid goldenrod ;
+    padding: 10px;
+}
+
+main{
+    font: normal 15pt Arial
+}
+
+.custom-button {
+    background-color:goldenrod; /* Cor de fundo */
+    border: none;
+    color: black; /* Cor do texto */
+    padding: 5px 35px; /* Espaçamento interno */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px; /* Tamanho da fonte */
+    cursor: pointer;
+    border-radius: 5px; /* Borda arredondada */
+    transition-duration: 0.4s; /* Transição suave */
+}
+
+.custom-button:hover {
+    background-color: gold; 
+}
+
